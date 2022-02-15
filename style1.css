@@ -1,0 +1,73 @@
+body {
+    background-color : black;
+    background-image: url("gambar.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Calibri";
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 12pt;
+    line-height: 150%;
+    padding: 10px;
+    background-color: rgba(242, 242, 242, 0.8);
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.menu {
+    text-align: center;
+    background-color: #EDF3F3;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding-top: 15pt;
+}
+
+.button {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-color: black;
+    transition-duration: 0.4s ;
+}
+
+.button:hover {
+    background-color: #bababa;
+}
+
+.a { 
+	text-decoration: none;
+	color: rgb(253, 251, 251);
+	background-color: rgb(87, 87, 121);
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid rgb(246, 244, 244);
+	line-height: 50px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+	.a:hover
+	{ background-color: rgb(151, 182, 178)}
+	

@@ -1,0 +1,97 @@
+body {
+    background-color : black;
+    background-image: url("gambar.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Calibri";
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 12pt;
+    line-height: 150%;
+    padding: 10px;
+    background-color: rgb(144, 148, 148);
+    width: 1330px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.menu {
+    text-align: center;
+    background-color: #EDF3F3;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding-top: 15pt;
+}
+
+.button {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-color: black;
+    transition-duration: 0.4s ;
+}
+
+.button:hover {
+    background-color: #bababa;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: rgb(214, 205, 205);
+  border-radius: 40px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(7, 7, 7);
+  border-radius: 20px;
+}
+
+.Excel {width: 70%; background-color: #a32727;}
+.Word {width: 90%; background-color: #1e5f8a;}
+.PowerPoint {width: 90%; background-color: #a247cc;}
+.photoshop {width: 90%; background-color: #04AA6D; }
+.php {width: 70%; background-color: #2196F3;}
+.html {width: 80%; background-color: #f44336;}
+.css {width: 90%; background-color: #becf73;}
+
+.a { 
+	text-decoration: none;
+	color: rgb(253, 251, 251);
+	background-color: rgb(87, 87, 121);
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid rgb(246, 244, 244);
+	line-height: 50px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+	.a:hover
+	{ background-color: rgb(151, 182, 178)}
